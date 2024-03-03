@@ -1,0 +1,39 @@
+{
+  "header": {
+    "about": "О нас",
+    "home": "Главная",
+    "contestant": "Для конкурсантов:",
+    "application": "Как подать заявку",
+    "jury": "Жюри",
+    "schedule": "Расписание",
+    "support": "Поддержать конкурс"
+  },
+  "mainBanner": {
+    "title": "Международный музыкальный конкурс для талантливых детей",
+    "music": "Музыка движет миром!",
+    "rotary": "Ротари клуб Алматы Казахстан",
+    "district": "Округ 2430",
+    "button": "Фильм о Rotary Club"
+  },
+  "conceptMain": {
+    "firstText": "В современном мире, где цифровые технологии и гаджеты занимают всё больше времени, особую роль начинает играть изучение музыки и искусства, которое помогает развивать творческие способности, воображение ребенка, а также улучшать когнитивные функции, такие как память, внимание и мышление.",
+    "secText": "Искусство и музыка играют важную роль в жизни ребенка!"
+  },
+  "stagesBlock": {
+    "title": "Contest Stages",
+    "regulation": "Contest regulation",
+    "applications": "Applications",
+    "group1": "from groups aged 7 to 9 will be accepted until",
+    "data1": "March 10, 2024.",
+    "about1": "The contest consists of a single round conducted online.",
+    "group2": "from groups aged 10 to 12 will be accepted until",
+    "data2": "March 15, 2024. ",
+    "about2": " The contest consists of three rounds: the first conducted online, followed by the second and third rounds held live in Almaty.",
+    "stageBtn1": "Application for children aged 7 to 9 years",
+    "stageBtn2": "Application for children aged 10 to 12 years",
+    "stageForChild": "Children who have advanced through the qualifying round in the age group of 10 to 12 years old will come to participate in the finals of the contest in Almaty, accompanied by one legal guardian."
+  },
+  "concept2": {
+    "title": "Концепция этого международного события отражает подход, состоящий из трех важных и самостоятельно значимых явлений:"
+  }
+}

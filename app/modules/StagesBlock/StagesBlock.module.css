@@ -1,0 +1,137 @@
+.stagesContainer {
+  background: rgb(222, 236, 255);
+  padding: 20px 0;
+  position: relative;
+}
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.title {
+  font-size: 40px;
+  color: var(--main-text-color);
+  font-weight: 700;
+  margin: 0;
+}
+.regulationBtn {
+  border: none;
+  cursor: pointer;
+  background: var(--main-text-color);
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 40px;
+  font-size: 18px;
+  margin: 10px 0;
+  transition: 0.5s;
+}
+.regulationBtn:hover {
+  background: #1c6ad1;
+  transition: 0.5s;
+}
+.backImg {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+}
+.aplItem {
+  position: relative;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.applicationsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.itemText {
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+  color: var(--main-text-color);
+  width: 80%;
+  line-height: 180%;
+}
+.bold {
+  font-weight: 700;
+}
+.applicationBtn {
+  max-width: 80%;
+  border: none;
+  background: var(--main-red-text-color);
+  padding: 10px 0;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.text {
+  color: var(--main-text-color);
+  font-size: 18px;
+}
+.firstImg {
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  z-index: 1;
+}
+.secImg {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  z-index: 1;
+}
+.treeImg {
+  position: absolute;
+  bottom: 30%;
+  right: 50%;
+  z-index: 1;
+}
+.fourImg {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  z-index: 1;
+}
+@media screen and (max-width: 1280px) {
+  .wrapper {
+      padding: 40px;
+  }
+  .firstImg {
+    display: none;
+  }
+  .secImg {
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 60px;
+    z-index: 1;
+  }
+  .treeImg {
+    position: absolute;
+    bottom: 30%;
+    right: 50%;
+    z-index: 1;
+  }
+  .fourImg {
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    z-index: 1;
+  }
+  .applicationsContainer {
+    grid-template-columns: 1fr;
+  }
+  .itemText {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .applicationBtn {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 28px;
+  }
+}

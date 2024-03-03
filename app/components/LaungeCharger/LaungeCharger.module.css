@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  z-index: 999;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 15px;
+  background: #fff;
+}
+.closeContainer {
+  position: absolute;
+  z-index: 999;
+  background: #fff;
+  padding: 24px 30px;
+  border-radius: 15px;
+  right: 0;
+  top: 15px;
+}
+.activeLang {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 24px;
+  top: 8px;
+  left: 13px;
+}
+.closeContainer a {
+  text-decoration: none;
+}
+.container a {
+  text-decoration: none;
+}
+.langLink {
+  /* display: none; */
+}
+.openLangLink {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .closeContainer {
+    position: relative;
+  }
+  .container {
+    position: relative;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "rotatri",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.7",
+    "dayjs": "^1.11.10",
+    "next": "14.1.0",
+    "next-intl": "^3.5.4",
+    "react": "^18",
+    "react-calendar": "^4.8.0",
+    "react-dom": "^18",
+    "react-redux": "^9.1.0",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,85 @@
+:root {
+  --main-text-color: #154686;
+  --main-gold-text-color: #eea728;
+  --main-red-text-color: #f14d4d;
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+.no-scroll {
+  overflow: hidden;
+}
+p {
+  margin: 0;
+}
+.title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  padding-bottom: 20px;
+  max-width: 90%;
+  line-height: 73px;
+}
+.main-text {
+  position: relative;
+  z-index: 99;
+  color: var(--main-text-color);
+  font-size: 18px;
+  /* padding: 20px 0; */
+  line-height: 160%;
+}
+.li {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    max-width: 100%;
+    font-size: 34px;
+    line-height: 110%;
+    margin-top: 40px;
+  }
+  .main-text {
+    color: var(--main-text-color);
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 110%;
+  }
+}
