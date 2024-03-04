@@ -10,6 +10,7 @@
   text-align: center;
   gap: 10px;
   margin: 15px 0;
+  align-items: center;
 }
 .item input {
   min-width: 320px;
@@ -21,6 +22,7 @@
 }
 .item select {
   width: 320px;
+  width: 100%;
   border-radius: 10px;
   height: 50px;
   border: none;

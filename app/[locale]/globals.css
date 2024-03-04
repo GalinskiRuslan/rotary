@@ -68,6 +68,12 @@ p {
 .li {
   margin: 10px 0;
 }
+.react-calendar {
+  width: 100%;
+}
+input[type="submit"]:disabled {
+  background-color: #ccc;
+}
 
 @media screen and (max-width: 1200px) {
   .title {

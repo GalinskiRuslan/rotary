@@ -34,7 +34,7 @@ export default function applicationA() {
                 <p className='main-text'><span className={cl.bold}>{t('text14')}</span></p><br />
                 <p className='main-text'><span className={cl.bold}>{t('text15')}</span></p>
             </div>
-            <FormA />
+            <FormA props={{ category: 'applicationA' }} />
 
         </main>
     );

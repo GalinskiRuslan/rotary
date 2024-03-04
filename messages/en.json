@@ -168,7 +168,9 @@
     "violin": "Violin",
     "repertuar": "REPERTOIRE: COMPOSER, MOVEMENT, TITLE AND EXACT TIME.",
     "time": "Time (MM:SS)",
-    "videoLink": "Please past your video link"
+    "videoLink": "Please past your video link",
+    "success": "The application has been successfully sent, you will be contacted shortly",
+    "filed": "An error occurred, please try again"
   },
   "applicationB": {
     "href": "/docs/ПОЛОЖЕНИЕ О КОНКУРСЕ Английская версия.docx",
