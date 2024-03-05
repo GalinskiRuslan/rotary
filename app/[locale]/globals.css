@@ -89,3 +89,17 @@ input[type="submit"]:disabled {
     line-height: 110%;
   }
 }
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 110%;
+    margin-top: 20px;
+  }
+  .main-text {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 110%;
+  }
+  
+}

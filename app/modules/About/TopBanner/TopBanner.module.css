@@ -153,4 +153,28 @@
     width: 100%;
     text-align: center;
   }
+  .firstInnerText {
+    font-size: 10px;
+    left: 10%;
+    top: 25%;
+    max-width: 40%;
+  }
+  .secondInnerText {
+    font-size: 10px;
+    right: 8%;
+    top: 10%;
+    max-width: 40%;
+  }
+  .thirdInnerText {
+    font-size: 10px;
+    left: 10%;
+    bottom: 30%;
+    max-width: 40%;
+  }
+  .fourthInnerText {
+    font-size: 10px;
+    right: 10%;
+    bottom: 20%;
+    max-width: 40%;
+  }
 }

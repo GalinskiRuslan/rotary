@@ -47,3 +47,26 @@
     padding: 0 30px;
   }
 }
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .redTitle {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .titleWithLine {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .circle {
+    max-width: 38px;
+    height: auto;
+    margin-top: -10px;
+  }
+  .jury {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+}

@@ -79,3 +79,22 @@
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    margin: 0;
+  }
+  .logo {
+    display: none;
+  }
+  .wrapper{
+    padding: 20px;
+  }
+  .wePartners {
+    font-size: 24px;
+  }
+  .parnersContainer img {
+    width: 100%;
+    height: auto;
+  }
+}
